@@ -1,0 +1,11 @@
+.*
+!.gitignore
+*.ipr
+*.iws
+*.iml
+.idea
+atlassian-ide-plugin.xml
+target
+build
+out
+
