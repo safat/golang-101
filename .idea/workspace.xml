@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8d7334b-cbbd-4d0c-a814-969e401c0aba" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/main/PrintLinkList.go" afterPath="$PROJECT_DIR$/main/PrintLinkList.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/Stack.go" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,14 +66,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrintLinkList.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PrintLinkList.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/PrintLinkList.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="52" column="83" lean-forward="false" selection-start-line="52" selection-start-column="83" selection-end-line="52" selection-end-column="83" />
+            <state relative-caret-position="270">
+              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding>
                 <element signature="e#14#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Stack.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/Stack.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="41" column="28" lean-forward="false" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+              <folding>
+                <element signature="e#14#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DynamicArray.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/DynamicArray.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -121,6 +144,7 @@
         <option value="$PROJECT_DIR$/ds/ReverseArray.go" />
         <option value="$PROJECT_DIR$/main/SparseArray.go" />
         <option value="$PROJECT_DIR$/main/PrintLinkList.go" />
+        <option value="$PROJECT_DIR$/main/ParenthesisBalance.go" />
       </list>
     </option>
   </component>
@@ -189,7 +213,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build PrintLinkList.go">
+  <component name="RunManager" selected="Go Build.go build ParenthesisBalance.go">
+    <configuration name="go build ParenthesisBalance.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="golang-101" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main/ParenthesisBalance.go" />
+      <package value="golang-101" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
     <configuration name="go build PrintLinkList.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="golang-101" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -217,16 +250,18 @@
       <package value="golang-101" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Go Build.go build ReverseArray.go" />
       <item index="1" class="java.lang.String" itemvalue="Go Build.go build SparseArray.go" />
       <item index="2" class="java.lang.String" itemvalue="Go Build.go build PrintLinkList.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Build.go build ParenthesisBalance.go" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build PrintLinkList.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build SparseArray.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Build.go build ReverseArray.go" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Go Build.go build ParenthesisBalance.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Build.go build PrintLinkList.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build SparseArray.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Build.go build ReverseArray.go" />
       </list>
     </recent_temporary>
   </component>
@@ -396,8 +431,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/PrintLinkList.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="52" column="83" lean-forward="false" selection-start-line="52" selection-start-column="83" selection-end-line="52" selection-end-column="83" />
+        <state relative-caret-position="270">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/DynamicArray.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/Stack.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="41" column="28" lean-forward="false" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
           <folding>
             <element signature="e#14#26#0" expanded="true" />
           </folding>
