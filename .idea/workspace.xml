@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8d7334b-cbbd-4d0c-a814-969e401c0aba" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/main/SparseArray.go" afterPath="$PROJECT_DIR$/main/SparseArray.go" />
+      <change beforePath="$PROJECT_DIR$/main/PrintLinkList.go" afterPath="$PROJECT_DIR$/main/PrintLinkList.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,13 +53,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SparseArray.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SparseArray.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/SparseArray.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
               <caret line="34" column="61" lean-forward="false" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
               <folding>
                 <element signature="e#14#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrintLinkList.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/PrintLinkList.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="52" column="83" lean-forward="false" selection-start-line="52" selection-start-column="83" selection-end-line="52" selection-end-column="83" />
+              <folding>
+                <element signature="e#14#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,6 +106,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>0xc42000e1f0</find>
+    </findStrings>
+  </component>
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -103,6 +120,7 @@
       <list>
         <option value="$PROJECT_DIR$/ds/ReverseArray.go" />
         <option value="$PROJECT_DIR$/main/SparseArray.go" />
+        <option value="$PROJECT_DIR$/main/PrintLinkList.go" />
       </list>
     </option>
   </component>
@@ -171,7 +189,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build SparseArray.go">
+  <component name="RunManager" selected="Go Build.go build PrintLinkList.go">
+    <configuration name="go build PrintLinkList.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="golang-101" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main/PrintLinkList.go" />
+      <package value="golang-101" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
     <configuration name="go build ReverseArray.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="golang-101" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -190,14 +217,16 @@
       <package value="golang-101" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Go Build.go build ReverseArray.go" />
       <item index="1" class="java.lang.String" itemvalue="Go Build.go build SparseArray.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Build.go build PrintLinkList.go" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build SparseArray.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build ReverseArray.go" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Go Build.go build PrintLinkList.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Build.go build SparseArray.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build ReverseArray.go" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +246,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990878" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -361,6 +390,16 @@
           <caret line="34" column="61" lean-forward="false" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
           <folding>
             <element signature="e#14#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/PrintLinkList.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="52" column="83" lean-forward="false" selection-start-line="52" selection-start-column="83" selection-end-line="52" selection-end-column="83" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
