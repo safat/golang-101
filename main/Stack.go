@@ -28,6 +28,10 @@ func (stack *Stack) Pop() (value interface{}) {
 	return nil
 }
 
+func (stack *Stack) IsEmpty() (bool) {
+	return stack.size == 0
+}
+
 func main() {
 	var stack = Stack{}
 
@@ -37,9 +41,10 @@ func main() {
 	stack.Push("cpp")
 	stack.Push("go")
 
-	fmt.Println(stack.Pop(), stack.size)
-	fmt.Println(stack.Pop())
-	fmt.Println(stack.Pop())
-	fmt.Println(stack.Pop())
-	fmt.Println(stack.Pop())
+	fmt.Println(stack.Pop(), stack.size, stack.IsEmpty())
+	fmt.Println(stack.Pop(), stack.size, stack.IsEmpty())
+	fmt.Println(stack.Pop(), stack.size, stack.IsEmpty())
+	fmt.Println(stack.Pop(), stack.size, stack.IsEmpty())
+	fmt.Println(stack.Pop(), stack.size, stack.IsEmpty())
+
 }
