@@ -5,14 +5,20 @@ import (
 	"fmt"
 )
 
-func InOrderTraverse(t *tree.Tree, ch chan int) {
+func inOrderTraverse(t *tree.Tree, ch chan int) {
 	if t == nil {
 		return
 	}
 
-	InOrderTraverse(t.Left, ch)
+	inOrderTraverse(t.Left, ch)
 	ch <- t.Value
-	InOrderTraverse(t.Right, ch)
+	inOrderTraverse(t.Right, ch)
+}
+
+func inOrderTraverseUtil(tree *tree.Tree, ch chan int) {
+	defer close(ch)
+
+	inOrderTraverse(tree, ch)
 }
 
 func main() {
@@ -22,17 +28,10 @@ func main() {
 	ch1 := make(chan int)
 	ch2 := make(chan int)
 
-	go func() {
-		defer close(ch1)
-		InOrderTraverse(tree1, ch1)
-	}()
+	go inOrderTraverseUtil(tree1, ch1)
+	go inOrderTraverseUtil(tree2, ch2)
 
-	go func() {
-		defer close(ch2)
-		InOrderTraverse(tree2, ch2)
-	}()
-
-	var equalTree = true
+	equalTree := true
 
 	for {
 		v1, ok1 := <-ch1
@@ -54,5 +53,4 @@ func main() {
 	}
 
 	fmt.Println("Is Equal Tree: ", equalTree)
-
 }

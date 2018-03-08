@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8d7334b-cbbd-4d0c-a814-969e401c0aba" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/concurrency/main/EquavalentBinaryTree.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/concurrency/main/GoSelect.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/concurrency/main/EquavalentBinaryTreeV2.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/main/2DArray.go" afterPath="$PROJECT_DIR$/ds/main/2DArray.go" />
-      <change beforePath="$PROJECT_DIR$/main/ArrayLeftRotate.go" afterPath="$PROJECT_DIR$/ds/main/ArrayLeftRotate.go" />
-      <change beforePath="$PROJECT_DIR$/main/DynamicArray.go" afterPath="$PROJECT_DIR$/ds/main/DynamicArray.go" />
-      <change beforePath="$PROJECT_DIR$/main/PrintLinkList.go" afterPath="$PROJECT_DIR$/ds/main/PrintLinkList.go" />
-      <change beforePath="$PROJECT_DIR$/main/Queue.go" afterPath="$PROJECT_DIR$/ds/main/Queue.go" />
-      <change beforePath="$PROJECT_DIR$/main/ReverseArray.go" afterPath="$PROJECT_DIR$/ds/main/ReverseArray.go" />
-      <change beforePath="$PROJECT_DIR$/main/SparseArray.go" afterPath="$PROJECT_DIR$/ds/main/SparseArray.go" />
-      <change beforePath="$PROJECT_DIR$/main/Stack.go" afterPath="$PROJECT_DIR$/ds/main/Stack.go" />
+      <change beforePath="$PROJECT_DIR$/concurrency/main/EquavalentBinaryTree.go" afterPath="$PROJECT_DIR$/concurrency/main/EquavalentBinaryTree.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,16 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PrintLinkList.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ds/main/PrintLinkList.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GoSelect.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/concurrency/main/GoSelect.go">
           <provider selected="true" editor-type-id="text-editor">
@@ -45,11 +27,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EquavalentBinaryTree.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EquavalentBinaryTree.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/concurrency/main/EquavalentBinaryTree.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="263">
+              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="45" />
+              <folding>
+                <element signature="e#14#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EquavalentBinaryTreeV2.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/concurrency/main/EquavalentBinaryTreeV2.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding>
                 <element signature="e#14#57#0" expanded="true" />
               </folding>
@@ -166,6 +160,7 @@
         <option value="$PROJECT_DIR$/concurrency/main/GoSelect.go" />
         <option value="$PROJECT_DIR$/concurrency/main/GoSelect2.go" />
         <option value="$PROJECT_DIR$/concurrency/main/EquavalentBinaryTree.go" />
+        <option value="$PROJECT_DIR$/concurrency/main/EquavalentBinaryTreeV2.go" />
       </list>
     </option>
   </component>
@@ -300,6 +295,9 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/safat/src/golang.org/x/tour/tree/tree.go" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/concurrency/main" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ds" />
       <recent name="$PROJECT_DIR$/main/ds" />
@@ -317,7 +315,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build EquavalentBinaryTree.go">
+  <component name="RunManager" selected="Go Build.go build EquavalentBinaryTreeV2.go">
+    <configuration name="go build EquavalentBinaryTreeV2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="golang-101" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/concurrency/main/EquavalentBinaryTreeV2.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
     <configuration name="go build EquavalentBinaryTree.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="golang-101" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -350,28 +356,20 @@
       <filePath value="$PROJECT_DIR$/main/ds/PrintLinkList.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build Queue.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="golang-101" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/main/Queue.go" />
-      <directory value="$PROJECT_DIR$/" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Build.go build Queue.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Build.go build PrintLinkList.go (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Go Build.go build GoSelect.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Build.go build GoSelect2.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Build.go build EquavalentBinaryTree.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Build.go build PrintLinkList.go (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Go Build.go build GoSelect.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Build.go build GoSelect2.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Build.go build EquavalentBinaryTree.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Build.go build EquavalentBinaryTreeV2.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build EquavalentBinaryTree.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build GoSelect2.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Build.go build GoSelect.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Build.go build PrintLinkList.go (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Go Build.go build Queue.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Build.go build EquavalentBinaryTreeV2.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Build.go build EquavalentBinaryTree.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build GoSelect2.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Build.go build GoSelect.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Build.go build PrintLinkList.go (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -387,7 +385,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4729412" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4729412" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -412,11 +410,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/concurrency/main/EquavalentBinaryTree.go</url>
-          <line>18</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/concurrency/main/EquavalentBinaryTree.go</url>
           <line>8</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -426,13 +419,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ds/main/ReverseArray.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/go/src/fmt/scan.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
@@ -764,8 +750,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/concurrency/main/EquavalentBinaryTree.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="263">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="45" />
+          <folding>
+            <element signature="e#14#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/main/EquavalentBinaryTreeV2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
             <element signature="e#14#57#0" expanded="true" />
           </folding>
